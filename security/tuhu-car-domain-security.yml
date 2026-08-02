@@ -1,0 +1,17 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: tuhu.cn
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Jan 18 08:06:02 2027 GMT
+  hsts: true
+  hsts_max_age: 31536000
+domains:
+- domain: tuhu.cn
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
