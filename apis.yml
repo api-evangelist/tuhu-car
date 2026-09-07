@@ -57,3 +57,5 @@ common:
   url: security/tuhu-car-domain-security.yml
 - type: Website
   url: https://tuhu.cn
+x-parent: tuhu
+x-relationship: product
